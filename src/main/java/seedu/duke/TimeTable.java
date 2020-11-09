@@ -50,6 +50,7 @@ public class TimeTable {
         System.out.println(lineCutOff);
     }
 
+
     public static boolean isModuleAdded(String moduleCode) {
         for (int i = 0; i < modules.size(); i++) {
             if (modules.get(i).moduleCode.equals(moduleCode)) {
